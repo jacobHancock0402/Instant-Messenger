@@ -1,0 +1,14 @@
+2024-01-11 14:11:40,145 - INFO - The server has started at ('127.0.0.1', 8000)
+2024-01-11 14:12:24,120 - INFO - ('127.0.0.1', 51013) is trying to connect
+2024-01-11 14:12:24,121 - INFO - ('127.0.0.1', 51013) has connected to the server
+2024-01-11 14:12:24,122 - INFO - Server sends welcome message to ('127.0.0.1', 51013)
+2024-01-11 14:12:24,122 - INFO - Server broadcasts that ('127.0.0.1', 51013) has joined
+2024-01-11 14:12:38,066 - INFO - ('127.0.0.1', 51039) is trying to connect
+2024-01-11 14:12:38,066 - INFO - ('127.0.0.1', 51039) has connected to the server
+2024-01-11 14:12:38,067 - INFO - Server sends welcome message to ('127.0.0.1', 51039)
+2024-01-11 14:12:38,067 - INFO - Server broadcasts that ('127.0.0.1', 51039) has joined
+2024-01-11 14:12:44,252 - INFO - ('127.0.0.1', 51013) sends 'hi joe' to everyone
+2024-01-11 14:12:49,697 - INFO - ('127.0.0.1', 51013) requested a list of the files in the download folder
+2024-01-11 14:12:49,697 - INFO - Server sent the list of files in the download folder to ('127.0.0.1', 51013)
+2024-01-11 14:12:57,031 - INFO - ('127.0.0.1', 51013) requested to download example_download.pdf from the downloads folder
+2024-01-11 14:12:57,034 - INFO - Server sent the file example_download.pdf to ('127.0.0.1', 51013)
