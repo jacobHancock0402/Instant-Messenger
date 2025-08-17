@@ -1,0 +1,59 @@
+2025-08-17 18:38:09,733 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 18:38:09,749 - INFO - Successfully connected to server as Jacob
+2025-08-17 18:38:09,859 - WARNING - Connection error: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-08-17 18:38:09,859 - WARNING - Server connection lost
+2025-08-17 18:38:09,859 - INFO - Client exiting due to server disconnection
+2025-08-17 18:39:15,830 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 18:39:15,830 - INFO - Successfully connected to server as Jacob
+2025-08-17 18:39:15,939 - WARNING - Connection error: [WinError 10035] A non-blocking socket operation could not be completed immediately
+2025-08-17 18:39:15,942 - WARNING - Server connection lost
+2025-08-17 18:39:15,942 - INFO - Client exiting due to server disconnection
+2025-08-17 18:44:36,519 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 18:44:36,524 - INFO - Successfully connected to server as Jacob
+2025-08-17 18:45:35,922 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 18:45:35,929 - INFO - Successfully connected to server as Jaco
+2025-08-17 19:10:34,155 - INFO - Client exiting due to user request
+2025-08-17 19:10:39,566 - WARNING - Server connection lost
+2025-08-17 19:10:39,582 - INFO - Client exiting due to server disconnection
+2025-08-17 19:10:47,619 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 19:10:47,622 - INFO - Successfully connected to server as Jacob
+2025-08-17 19:10:47,622 - INFO - Received message: Jacob has joined
+2025-08-17 19:11:17,072 - INFO - Message sent successfully
+2025-08-17 19:39:01,820 - WARNING - Server connection lost
+2025-08-17 19:39:01,837 - INFO - Server has disconnected. Exiting...
+2025-08-17 19:39:01,837 - INFO - Client exiting due to server disconnection
+2025-08-17 19:39:20,228 - INFO - Disconnecting...
+2025-08-17 19:39:20,237 - ERROR - Error sending data to server: [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:39:23,072 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 19:39:23,077 - INFO - Successfully connected to server as Jacob
+2025-08-17 19:39:41,147 - INFO - Message sent successfully
+2025-08-17 19:44:15,982 - INFO - Disconnecting...
+2025-08-17 19:44:15,987 - INFO - Client exiting due to user request
+2025-08-17 19:44:35,388 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 19:44:35,391 - INFO - Successfully connected to server as Jacob
+2025-08-17 19:45:13,828 - INFO - Message sent successfully
+2025-08-17 19:45:48,011 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 19:45:48,011 - INFO - Successfully connected to server as Jaco
+2025-08-17 19:45:48,098 - INFO - Received message: Jaco has joined
+2025-08-17 19:46:46,821 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 19:46:46,821 - WARNING - Username already in use, disconnecting
+2025-08-17 19:46:46,821 - INFO - Client exiting
+2025-08-17 19:47:06,518 - INFO - Disconnecting...
+2025-08-17 19:47:06,518 - INFO - Client exiting due to user request
+2025-08-17 19:47:06,625 - INFO - Received message: Jacob has left
+2025-08-17 19:47:10,181 - WARNING - Server connection lost
+2025-08-17 19:47:10,181 - INFO - Server has disconnected. Exiting...
+2025-08-17 19:47:10,181 - INFO - Client exiting due to server disconnection
+2025-08-17 19:47:23,358 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 19:47:23,358 - INFO - Successfully connected to server as Jacob
+2025-08-17 19:47:28,231 - INFO - Disconnecting...
+2025-08-17 19:47:28,231 - ERROR - Error sending data to server: [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:47:32,201 - INFO - Attempting to connect to server at 127.0.0.1:8000
+2025-08-17 19:47:32,201 - INFO - Successfully connected to server as Jaco
+2025-08-17 19:47:32,232 - INFO - Received message: Jaco has joined
+2025-08-17 19:48:06,437 - WARNING - Server connection lost
+2025-08-17 19:48:06,438 - INFO - Server has disconnected. Exiting...
+2025-08-17 19:48:06,438 - INFO - Client exiting due to server disconnection
+2025-08-17 19:48:06,484 - WARNING - Server connection lost
+2025-08-17 19:48:06,484 - INFO - Server has disconnected. Exiting...
+2025-08-17 19:48:06,484 - INFO - Client exiting due to server disconnection

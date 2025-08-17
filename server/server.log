@@ -10,3 +10,127 @@
 2025-08-17 18:29:11,974 - INFO - Server sends welcome message to ('127.0.0.1', 59333)
 2025-08-17 18:29:11,974 - INFO - Server broadcasts that ('127.0.0.1', 59333) has joined
 2025-08-17 18:29:19,901 - INFO - ('127.0.0.1', 59333) has left
+2025-08-17 18:33:10,022 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 18:33:15,324 - INFO - ('127.0.0.1', 59407) is trying to connect
+2025-08-17 18:33:15,339 - INFO - ('127.0.0.1', 59407) has connected to the server
+2025-08-17 18:33:15,339 - INFO - Server sends welcome message to ('127.0.0.1', 59407)
+2025-08-17 18:33:15,339 - INFO - Server broadcasts that ('127.0.0.1', 59407) has joined
+2025-08-17 18:33:28,877 - INFO - ('127.0.0.1', 59407) has left
+2025-08-17 18:33:47,268 - INFO - ('127.0.0.1', 59419) is trying to connect
+2025-08-17 18:33:47,268 - INFO - ('127.0.0.1', 59419) has connected to the server
+2025-08-17 18:33:47,268 - INFO - Server sends welcome message to ('127.0.0.1', 59419)
+2025-08-17 18:33:47,268 - INFO - Server broadcasts that ('127.0.0.1', 59419) has joined
+2025-08-17 18:38:04,325 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 18:38:09,733 - INFO - ('127.0.0.1', 59497) is trying to connect
+2025-08-17 18:38:09,749 - INFO - ('127.0.0.1', 59497) has connected to the server
+2025-08-17 18:38:09,749 - INFO - Server sends welcome message to ('127.0.0.1', 59497)
+2025-08-17 18:38:09,749 - INFO - Server broadcasts that ('127.0.0.1', 59497) has joined
+2025-08-17 18:39:11,455 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 18:39:15,830 - INFO - ('127.0.0.1', 59521) is trying to connect
+2025-08-17 18:39:15,830 - INFO - ('127.0.0.1', 59521) has connected to the server
+2025-08-17 18:39:15,830 - INFO - Server sends welcome message to ('127.0.0.1', 59521)
+2025-08-17 18:39:15,830 - INFO - Server broadcasts that ('127.0.0.1', 59521) has joined
+2025-08-17 18:39:58,096 - ERROR - Unexpected error handling client ('127.0.0.1', 59521): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 18:44:32,359 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 18:44:36,519 - INFO - ('127.0.0.1', 59717) is trying to connect
+2025-08-17 18:44:36,519 - INFO - ('127.0.0.1', 59717) has connected to the server
+2025-08-17 18:44:36,519 - INFO - Server sends welcome message to ('127.0.0.1', 59717)
+2025-08-17 18:44:36,519 - INFO - Server broadcasts that ('127.0.0.1', 59717) has joined
+2025-08-17 18:45:35,922 - INFO - ('127.0.0.1', 59736) is trying to connect
+2025-08-17 18:45:35,922 - INFO - ('127.0.0.1', 59736) has connected to the server
+2025-08-17 18:45:35,928 - INFO - Server sends welcome message to ('127.0.0.1', 59736)
+2025-08-17 18:45:35,928 - INFO - Server broadcasts that ('127.0.0.1', 59736) has joined
+2025-08-17 19:10:34,170 - INFO - ('127.0.0.1', 59717) has left
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:39,472 - ERROR - Unexpected error handling client ('127.0.0.1', 59736): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:10:41,595 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 19:10:47,622 - INFO - ('127.0.0.1', 60303) is trying to connect
+2025-08-17 19:10:47,622 - INFO - ('127.0.0.1', 60303) has connected to the server
+2025-08-17 19:10:47,622 - INFO - Server sends welcome message to ('127.0.0.1', 60303)
+2025-08-17 19:10:47,622 - INFO - Server broadcasts that ('127.0.0.1', 60303) has joined
+2025-08-17 19:11:17,072 - INFO - ('127.0.0.1', 60303) sends 'hello' to everyone
+2025-08-17 19:39:01,741 - ERROR - Unexpected error handling client ('127.0.0.1', 60303): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:39:01,747 - ERROR - Unexpected error handling client ('127.0.0.1', 60303): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:39:01,747 - ERROR - Unexpected error handling client ('127.0.0.1', 60303): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:39:01,747 - ERROR - Unexpected error handling client ('127.0.0.1', 60303): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:39:01,757 - ERROR - Unexpected error handling client ('127.0.0.1', 60303): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:39:04,122 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 19:39:04,123 - INFO - Server listening on ('127.0.0.1', 8000)
+2025-08-17 19:39:04,123 - INFO - Press Ctrl+C to stop the server
+2025-08-17 19:39:23,072 - INFO - New connection attempt from ('127.0.0.1', 60778)
+2025-08-17 19:39:23,072 - INFO - Username 'Jacob' accepted from ('127.0.0.1', 60778)
+2025-08-17 19:39:23,072 - INFO - New connection from Jacob (('127.0.0.1', 60778))
+2025-08-17 19:39:23,072 - INFO - Client thread started for Jacob (('127.0.0.1', 60778))
+2025-08-17 19:39:23,076 - INFO - Welcome message sent to Jacob (('127.0.0.1', 60778))
+2025-08-17 19:39:23,076 - INFO - User Jacob (('127.0.0.1', 60778)) has joined the server
+2025-08-17 19:39:41,147 - INFO - User Jacob (('127.0.0.1', 60778)) broadcasts: 'hello'
+2025-08-17 19:44:15,982 - INFO - User Jacob (('127.0.0.1', 60778)) requested graceful disconnect
+2025-08-17 19:44:15,982 - INFO - Jacob (('127.0.0.1', 60778)) has disconnected
+2025-08-17 19:44:19,700 - INFO - Shutting down server...
+2025-08-17 19:44:19,700 - INFO - Server shutdown complete.
+2025-08-17 19:44:21,768 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 19:44:21,768 - INFO - Server listening on ('127.0.0.1', 8000)
+2025-08-17 19:44:21,768 - INFO - Press Ctrl+C to stop the server
+2025-08-17 19:44:35,391 - INFO - New connection attempt from ('127.0.0.1', 60907)
+2025-08-17 19:44:35,391 - INFO - Username 'Jacob' accepted from ('127.0.0.1', 60907)
+2025-08-17 19:44:35,391 - INFO - New connection from Jacob (('127.0.0.1', 60907))
+2025-08-17 19:44:35,391 - INFO - Client thread started for Jacob (('127.0.0.1', 60907))
+2025-08-17 19:44:35,391 - INFO - Welcome message sent to Jacob (('127.0.0.1', 60907))
+2025-08-17 19:44:35,391 - INFO - User Jacob (('127.0.0.1', 60907)) has joined the server
+2025-08-17 19:45:13,828 - INFO - User Jacob (('127.0.0.1', 60907)) broadcasts: 'yes'
+2025-08-17 19:45:48,011 - INFO - New connection attempt from ('127.0.0.1', 60921)
+2025-08-17 19:45:48,011 - INFO - Username 'Jaco' accepted from ('127.0.0.1', 60921)
+2025-08-17 19:45:48,011 - INFO - New connection from Jaco (('127.0.0.1', 60921))
+2025-08-17 19:45:48,011 - INFO - Client thread started for Jaco (('127.0.0.1', 60921))
+2025-08-17 19:45:48,011 - INFO - Welcome message sent to Jaco (('127.0.0.1', 60921))
+2025-08-17 19:45:48,017 - INFO - User Jaco (('127.0.0.1', 60921)) has joined the server
+2025-08-17 19:46:46,821 - INFO - New connection attempt from ('127.0.0.1', 60942)
+2025-08-17 19:46:46,821 - WARNING - Connection rejected: username 'Jacob' already in use from ('127.0.0.1', 60942)
+2025-08-17 19:47:06,518 - INFO - User Jacob (('127.0.0.1', 60907)) requested graceful disconnect
+2025-08-17 19:47:06,518 - INFO - Jacob (('127.0.0.1', 60907)) has disconnected
+2025-08-17 19:47:10,117 - INFO - Shutting down server...
+2025-08-17 19:47:10,118 - ERROR - Unexpected error handling client ('127.0.0.1', 60921): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:47:10,118 - INFO - Server shutdown complete.
+2025-08-17 19:47:10,118 - ERROR - Unexpected error handling client ('127.0.0.1', 60921): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:47:10,118 - ERROR - Unexpected error handling client ('127.0.0.1', 60921): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:47:18,417 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 19:47:18,418 - INFO - Server listening on ('127.0.0.1', 8000)
+2025-08-17 19:47:18,418 - INFO - Press Ctrl+C to stop the server
+2025-08-17 19:47:23,358 - INFO - New connection attempt from ('127.0.0.1', 60952)
+2025-08-17 19:47:23,358 - INFO - Username 'Jacob' accepted from ('127.0.0.1', 60952)
+2025-08-17 19:47:23,358 - INFO - New connection from Jacob (('127.0.0.1', 60952))
+2025-08-17 19:47:23,358 - INFO - Client thread started for Jacob (('127.0.0.1', 60952))
+2025-08-17 19:47:23,358 - INFO - Welcome message sent to Jacob (('127.0.0.1', 60952))
+2025-08-17 19:47:23,358 - INFO - User Jacob (('127.0.0.1', 60952)) has joined the server
+2025-08-17 19:47:32,201 - INFO - New connection attempt from ('127.0.0.1', 60955)
+2025-08-17 19:47:32,201 - INFO - Username 'Jaco' accepted from ('127.0.0.1', 60955)
+2025-08-17 19:47:32,201 - INFO - New connection from Jaco (('127.0.0.1', 60955))
+2025-08-17 19:47:32,201 - INFO - Client thread started for Jaco (('127.0.0.1', 60955))
+2025-08-17 19:47:32,201 - INFO - Welcome message sent to Jaco (('127.0.0.1', 60955))
+2025-08-17 19:47:32,201 - INFO - User Jaco (('127.0.0.1', 60955)) has joined the server
+2025-08-17 19:48:06,389 - INFO - Shutting down server...
+2025-08-17 19:48:06,389 - ERROR - Unexpected error handling client ('127.0.0.1', 60955): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:48:06,390 - ERROR - Unexpected error handling client ('127.0.0.1', 60952): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:48:06,390 - INFO - Server shutdown complete.
+2025-08-17 19:48:06,390 - ERROR - Unexpected error handling client ('127.0.0.1', 60955): [WinError 10038] An operation was attempted on something that is not a socket
+2025-08-17 19:48:06,390 - ERROR - Unexpected error handling client ('127.0.0.1', 60952): [WinError 10038] An operation was attempted on something that is not a socket
