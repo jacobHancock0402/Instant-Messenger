@@ -1,7 +1,1 @@
-2025-08-17 16:40:30,067 - INFO - The server has started at ('127.0.0.1', 8000)
-2025-08-17 16:41:18,402 - INFO - ('127.0.0.1', 56924) is trying to connect
-2025-08-17 16:41:18,402 - INFO - ('127.0.0.1', 56924) has connected to the server
-2025-08-17 16:41:18,402 - INFO - Server sends welcome message to ('127.0.0.1', 56924)
-2025-08-17 16:41:18,402 - INFO - Server broadcasts that ('127.0.0.1', 56924) has joined
-2025-08-17 16:41:52,232 - INFO - ('127.0.0.1', 56924) sends 'Y' to everyone
-2025-08-17 16:42:44,746 - INFO - ('127.0.0.1', 56924) has left
+
