@@ -4,7 +4,10 @@ import sys
 import json
 import os
 import logging
+import signal
 
+# Global flag to control server shutdown
+server_running = True
 
 # Function to handle client disconnection
 def handle_disconnect(client_address, user_name, connection):
@@ -98,32 +101,71 @@ def send_to_all_clients(data, sender=""):
             client.sendall(data.encode('utf-8'))
 
                 
+# Function to handle graceful shutdown
+def handle_shutdown(signal, frame):
+    global server_running
+    print("\nShutting down server...")
+    server_running = False
+    # Close all client connections
+    for name, client in list(client_connections.items()):
+        try:
+            client.close()
+        except:
+            pass
+    # Close server socket
+    try:
+        server_socket.close()
+    except:
+        pass
+    print("Server shutdown complete.")
+    sys.exit(0)
+
 # Set up the variables
 client_connections = {}
 client_addresses = {}
 port = sys.argv[1]
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 server_address = ('127.0.0.1', int(port))
 server_socket.bind(server_address)
 logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logging.info("The server has started at %s", server_address)
 
+# Set up signal handler for graceful shutdown
+signal.signal(signal.SIGINT, handle_shutdown)
+
 # Listen for incoming connections
-server_socket.listen()
+server_socket.listen(5)
+print(f"Server listening on {server_address}")
+print("Press Ctrl+C to stop the server")
 
 # Loop that waits for connection from new clients
-while True:
-    connection, client_address = server_socket.accept()
-    logging.info("%s is trying to connect", client_address)
+while server_running:
+    try:
+        # Set a timeout so we can check server_running flag
+        server_socket.settimeout(1.0)
+        connection, client_address = server_socket.accept()
+        logging.info("%s is trying to connect", client_address)
 
-    # Create a new thread for each client connection
-    user_name = connection.recv(1024).decode('utf-8')
-    # Check if user_name already in use
-    if(user_name in client_connections.keys()):
-        logging.info("%s failed to connect", client_address)
-        msg = "Username already in use. Try again"
-        connection.sendall(msg.encode('utf-8'))
-        connection.close()
+        # Create a new thread for each client connection
+        user_name = connection.recv(1024).decode('utf-8')
+        # Check if user_name already in use
+        if(user_name in client_connections.keys()):
+            logging.info("%s failed to connect", client_address)
+            msg = "Username already in use. Try again"
+            connection.sendall(msg.encode('utf-8'))
+            connection.close()
+            continue
+        client_thread = threading.Thread(target=handle_client, args=(connection, client_address, user_name))
+        client_thread.daemon = True  # Make thread daemon so it doesn't prevent shutdown
+        client_thread.start()
+    except socket.timeout:
+        # Timeout occurred, check if we should continue
         continue
-    client_thread = threading.Thread(target=handle_client, args=(connection, client_address, user_name))
-    client_thread.start()
+    except Exception as e:
+        if server_running:
+            print(f"Error accepting connection: {e}")
+        break
+
+# Clean shutdown
+handle_shutdown(None, None)

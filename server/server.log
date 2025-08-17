@@ -1,0 +1,12 @@
+2025-08-17 18:25:35,150 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 18:25:38,066 - INFO - The server has started at ('127.0.0.1', 8000)
+2025-08-17 18:25:52,264 - INFO - ('127.0.0.1', 59266) is trying to connect
+2025-08-17 18:25:52,264 - INFO - ('127.0.0.1', 59266) has connected to the server
+2025-08-17 18:25:52,264 - INFO - Server sends welcome message to ('127.0.0.1', 59266)
+2025-08-17 18:25:52,264 - INFO - Server broadcasts that ('127.0.0.1', 59266) has joined
+2025-08-17 18:25:55,236 - INFO - ('127.0.0.1', 59266) has left
+2025-08-17 18:29:11,974 - INFO - ('127.0.0.1', 59333) is trying to connect
+2025-08-17 18:29:11,974 - INFO - ('127.0.0.1', 59333) has connected to the server
+2025-08-17 18:29:11,974 - INFO - Server sends welcome message to ('127.0.0.1', 59333)
+2025-08-17 18:29:11,974 - INFO - Server broadcasts that ('127.0.0.1', 59333) has joined
+2025-08-17 18:29:19,901 - INFO - ('127.0.0.1', 59333) has left
